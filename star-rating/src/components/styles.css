@@ -1,0 +1,14 @@
+.active{
+    color:gold;
+    cursor:pointer;
+}
+.inactive{
+    color:black;
+}
+
+.star-rating{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

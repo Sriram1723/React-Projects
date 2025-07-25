@@ -51,7 +51,7 @@ export default function ColourGenerator() {
       </div>
       <div className="generate-colour">
         <h1>{colour}</h1>
-        <button onClick={()=>colourType === 'random' ? generateRandomColour() 
+        <button onClick={()=>colourType === 'random' ? generateRandomColour()
             : colourType === 'hex' ? generateHexColour() : generateRgbColour() 
             }>Generate Colour</button>
       </div>
