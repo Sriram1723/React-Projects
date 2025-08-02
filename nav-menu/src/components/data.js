@@ -1,0 +1,25 @@
+export const menudata = [
+{
+    id:1,
+    label:"Home"
+},
+{
+    label:"Profile",
+    id:2,
+    children:[{
+        id:3,
+        label:"Details",
+        children:[{
+            id:4,
+            label:"Location"
+        }]
+    }]
+},
+{
+    id:5,
+    label:"settings",
+    children:[{
+        id:6,
+        label:"Information"
+    }]
+}]

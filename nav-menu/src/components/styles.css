@@ -1,0 +1,32 @@
+body{
+    font-size: larger;
+}
+ul{
+    list-style-type: none;
+}
+
+.nav-container{
+    width:30vw;
+    height:99.8vh;
+    border: 1px solid black;
+    background-color: rgb(120, 21, 38);
+    color:white;
+    position: relative;
+}
+
+span{
+    padding:0 0 0 10px;
+}
+
+span:hover{
+    cursor:pointer;
+}
+
+.title{
+    float:right;
+    font-size: 4vw;
+    font-family: cursive;
+    position:absolute;
+    right:4%;
+    top:40%;
+}
