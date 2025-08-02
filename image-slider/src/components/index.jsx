@@ -24,7 +24,7 @@ export default function ImageSlider(){
                     {
                         sliderData.map((item) =>
                             (
-                                <button onClick={() => {setCurrentSlide(item.id-1)}} className={currentSlide === item.id-1 ? 'active' : null }></button>
+                                <button key={item.id} onClick={() => {setCurrentSlide(item.id-1)}} className={currentSlide === item.id-1 ? 'active' : null }></button>
                             )
                         )
                     }
