@@ -1,0 +1,36 @@
+.container{
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.heading{
+    gap:10px;
+    display:flex;
+    width:16vw;
+    color:white;
+    justify-content:space-evenly;
+    font-size: 2vw;
+    background-color: green;
+    border-radius: 10px;
+    padding:5px 5px;
+}
+
+.active,.inactive{
+    padding:0px 5px;
+}
+
+.active:hover,.inactive:hover{
+    padding:0px 5px;
+    cursor:pointer;
+}
+.content{
+    font-size: large;
+}
+
+.active{
+    background-color: greenyellow;
+    border-radius: 10px;
+}
