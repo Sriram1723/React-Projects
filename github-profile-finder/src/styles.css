@@ -1,0 +1,79 @@
+.container{
+    background-color: #000000;
+    height:100vh;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+
+.title{
+    font-size: 3vw;
+}
+
+input{
+    height:30px;
+    width:200px;
+    font-size: large;
+    text-indent: 8px;
+}
+
+button{
+    width:100px;
+    height:30px;
+    color:white;
+    background-color: dodgerblue;
+    border: none;
+}
+
+img{
+    width:250px;
+    height: 250px;
+}
+
+a{
+    color:greenyellow
+}
+.profile{
+    display:flex;
+    flex-direction: column;
+}
+
+.details{
+    position: relative;
+    width:250px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: start;
+}
+
+span{
+    position:absolute;
+    right:0;
+}
+
+.user-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    animation-name: usercontainer;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+@keyframes usercontainer {
+    from{
+        transform: translateY(-20px);
+        opacity:0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
