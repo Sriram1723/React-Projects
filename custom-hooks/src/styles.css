@@ -1,0 +1,24 @@
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+}
+li:hover{
+    cursor: pointer;
+}
+
+.links{
+    position:fixed;
+    width:100%;
+    top:0;
+    height:50px;
+    background-color: olivedrab;
+    color:white;
+}
+
+.sections{
+    margin-top: 50px;
+}
+.sections >div{
+    scroll-margin-top: 50px;
+}
